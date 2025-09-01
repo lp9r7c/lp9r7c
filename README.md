@@ -18,11 +18,24 @@
 ## 🛠️ Stack & Outils  
 
 <p align="center">
+  <!-- OS & Infra -->
   <img src="https://img.shields.io/badge/OS-Debian-red?logo=debian&logoColor=white" />
   <img src="https://img.shields.io/badge/Virtualisation-Proxmox-orange?logo=proxmox&logoColor=white" />
+  <img src="https://img.shields.io/badge/Container-Docker-blue?logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Infra-Ansible-lightgrey?logo=ansible&logoColor=black" />
+  
+  <!-- Langages & Scripts -->
   <img src="https://img.shields.io/badge/Scripting-Bash-blue?logo=gnubash&logoColor=white" />
   <img src="https://img.shields.io/badge/Language-Python-yellow?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Network-pfSense-green?logo=freebsd&logoColor=white" />
+  <img src="https://img.shields.io/badge/Automation-PowerShell-darkblue?logo=powershell&logoColor=white" />
+
+  <!-- Cybersecurity tools -->
+  <img src="https://img.shields.io/badge/Security-Kali_Linux-purple?logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pentest-Metasploit-lightblue?logo=metasploit&logoColor=black" />
+  <img src="https://img.shields.io/badge/WebSecurity-Burp_Suite-orange?logo=burpsuite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Network-Wireshark-cyan?logo=wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scanner-Nmap-darkgreen?logo=nmap&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firewall-pfSense-green?logo=freebsd&logoColor=white" />
 </p>
 
 ---
@@ -37,9 +50,9 @@
 ---
 
 ## 🌍 Me retrouver  
-📧 Contact :
-💼 LinkedIn :
-🌐 Site perso :
+📧 Contact : [Ton Email Ici]  
+💼 LinkedIn : [Ton LinkedIn Ici]  
+🌐 Site perso : [Ton site ici]  
 
 ---
 
