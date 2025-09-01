@@ -37,9 +37,9 @@
 ---
 
 ## 🌍 Me retrouver  
-📧 Contact : [Ton Email Ici]  
-💼 LinkedIn : [Ton LinkedIn Ici]  
-🌐 Site perso : [Ton site ici]  
+📧 Contact :
+💼 LinkedIn :
+🌐 Site perso :
 
 ---
 
