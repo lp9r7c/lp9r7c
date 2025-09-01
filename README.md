@@ -1,30 +1,30 @@
-<!-- Profil README pour lp9r7c -->
+<!-- Profile README for lp9r7c -->
 
-<h1 align="center">👾 Bienvenue sur mon GitHub</h1>
+<h1 align="center">👾 Welcome to my GitHub</h1>
 <p align="center">
-  🔐 Cybersécurité • 🛡️ Confidentialité • ⚡ Infrastructures sécurisées
+  🔐 Cybersecurity • 🛡️ Privacy • ⚡ Secure Infrastructures
 </p>
 
 ---
 
-## 🚀 À propos de moi  
-- 💻 Passionné par la **cybersécurité offensive & défensive**  
-- 🛠️ Expérimenté en **virtualisation (Proxmox, VMware, KVM)**  
-- 🐧 Fan de **Debian** et du durcissement de systèmes Linux  
-- 🔐 Focus sur la **confidentialité et la sécurité des données**  
+## 🚀 About Me  
+- 💻 Passionate about **offensive & defensive cybersecurity**  
+- 🛠️ Experienced in **virtualization (Proxmox, VMware, KVM)**  
+- 🐧 Linux enthusiast (Debian) with a focus on **system hardening**  
+- 🔐 Dedicated to **privacy and data security**  
 
 ---
 
-## 🛠️ Stack & Outils  
+## 🛠️ Stack & Tools  
 
 <p align="center">
   <!-- OS & Infra -->
   <img src="https://img.shields.io/badge/OS-Debian-red?logo=debian&logoColor=white" />
-  <img src="https://img.shields.io/badge/Virtualisation-Proxmox-orange?logo=proxmox&logoColor=white" />
+  <img src="https://img.shields.io/badge/Virtualization-Proxmox-orange?logo=proxmox&logoColor=white" />
   <img src="https://img.shields.io/badge/Container-Docker-blue?logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Infra-Ansible-lightgrey?logo=ansible&logoColor=black" />
   
-  <!-- Langages & Scripts -->
+  <!-- Languages & Scripting -->
   <img src="https://img.shields.io/badge/Scripting-Bash-blue?logo=gnubash&logoColor=white" />
   <img src="https://img.shields.io/badge/Language-Python-yellow?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Automation-PowerShell-darkblue?logo=powershell&logoColor=white" />
@@ -40,7 +40,7 @@
 
 ---
 
-## 📊 Stats GitHub  
+## 📊 GitHub Stats  
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=lp9r7c&show_icons=true&theme=tokyonight" height="150"/>
@@ -49,13 +49,9 @@
 
 ---
 
-## 🌍 Me retrouver  
-📧 Contact : [Ton Email Ici]  
-💼 LinkedIn : [Ton LinkedIn Ici]  
-🌐 Site perso : [Ton site ici]  
+## 🌍 Find Me  
+📧 Contact:   
+💼 LinkedIn:   
+🌐 Website:   
 
 ---
-
-<p align="center"> 
-  <b>“Casser pour mieux protéger. Sécuriser pour préserver.”</b> 🔐  
-</p>
