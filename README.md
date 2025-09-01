@@ -1,16 +1,36 @@
-## Hi there 👋
+# 👾 Salut, moi c’est lp9r7c  
 
-<!--
-**lp9r7c/lp9r7c** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 Passionné par la **cybersécurité** et la **confidentialité numérique**  
+🛡️ Spécialisé en **sécurisation des réseaux, serveurs et systèmes**  
+⚙️ Expérimenté en **virtualisation avec Proxmox**, **déploiement Debian** et **maintenance d’infrastructures**  
+🔐 Objectif : concevoir des environnements robustes, sécurisés et respectueux de la vie privée  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Domaines de compétences  
+
+- **Cybersécurité** : Pentesting (Kali, Metasploit, Burp Suite), durcissement système, monitoring, forensic  
+- **Confidentialité & Défense** : chiffrement, gestion des accès, surveillance réseau, SIEM  
+- **Virtualisation & Infra** : Proxmox VE, VMware, KVM  
+- **Systèmes & Réseaux** : Debian, Ubuntu Server, Windows Server, pfSense  
+- **Langages & Scripts** : Bash, Python, PowerShell  
+- **Outils** : Docker, Ansible, Git, Wireshark, Nmap  
+
+---
+
+## 📊 Statistiques GitHub  
+
+![Stats](https://github-readme-stats.vercel.app/api?username=lp9r7c&show_icons=true&theme=radical)  
+![Langages](https://github-readme-stats.vercel.app/api/top-langs/?username=lp9r7c&layout=compact&theme=radical)  
+
+---
+
+## 🌍 Me retrouver  
+
+📧 Contact : [ton email ici]  
+💼 LinkedIn : [ton profil ici]  
+🌐 Site perso : [ton site ici]  
+
+---
+
+> “🔐 Casser pour mieux protéger | 🛡️ Sécuriser pour préserver la confidentialité”
