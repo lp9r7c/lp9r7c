@@ -23,13 +23,6 @@
 ![Stats](https://github-readme-stats.vercel.app/api?username=lp9r7c&show_icons=true&theme=radical)  
 ![Langages](https://github-readme-stats.vercel.app/api/top-langs/?username=lp9r7c&layout=compact&theme=radical)  
 
----
-
-## 🌍 Me retrouver  
-
-📧 Contact : [ton email ici]  
-💼 LinkedIn : [ton profil ici]  
-🌐 Site perso : [ton site ici]  
 
 ---
 
