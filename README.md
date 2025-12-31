@@ -1,4 +1,4 @@
-# <p align="center">Hi, I'm [Your Name] 👋</p>
+# <p align="center">Hi, I'm Thomas</p>
 
 <p align="center">
   <strong>Self-Hosting Enthusiast | Proxmox Architect | Infrastructure as Code</strong><br>
