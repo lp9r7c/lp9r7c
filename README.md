@@ -36,4 +36,42 @@
 
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/448d7c6d-5dc2-4665-85ac-b2096b44f82e" />
 
+graph TD
+    subgraph WAN_Edge [BORDURE INTERNET - Haute Disponibilité]
+        direction LR
+        ISP1((Fibre Principale)) --- R1{Firewall 1: Edge}
+        ISP2((Airbox Secours)) --- R1
+    end
 
+    subgraph Rack_Network [BAIE N°1 : RÉSEAU & SÉCURITÉ]
+        direction TB
+        R1 -- "Filtrage Externe" --- R2{Firewall 2: Internal}
+        R2 --- SW_Core[Switch L3 Manageable]
+        R2 --- Nmap[Nmap Security Scanner]
+        SW_Core --- UPS1[Onduleur Baie Réseau]
+    end
+
+    subgraph Rack_Server [BAIE N°2 : COMPUTE & DATA]
+        direction TB
+        SW_Core --- Cluster[Cluster Proxmox HA - 15 Nœuds]
+        Cluster --- VM_Services[Docker, K8s, Home Assistant]
+        
+        subgraph Storage [Stockage & Résilience]
+            PBS[Proxmox Backup Server]
+            NAS[(NAS RAID-Z2)]
+        end
+        
+        UPS2[Onduleur Baie Serveur]
+    end
+
+    %% Connexions critiques
+    SW_Core --- PBS
+    Cluster --- UPS2
+
+    %% Style Futuriste Sombre
+    style WAN_Edge fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#fff
+    style Rack_Network fill:#1e293b,stroke:#818cf8,stroke-width:3px,color:#fff
+    style Rack_Server fill:#1e293b,stroke:#2dd4bf,stroke-width:3px,color:#fff
+    style Storage fill:#334155,stroke:#94a3b8,color:#fff
+    style R1 fill:#ef4444,color:#fff
+    style R2 fill:#f59e0b,color:#fff
