@@ -27,12 +27,3 @@
 - 🐳 **Microservices**: Orchestrating 20+ containers via Docker Compose.
 
 ---
-
-### 📊 GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&theme=transparent&hide_border=true&title_color=3182ce&icon_color=3182ce" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR-USERNAME&theme=transparent&hide_border=true&stroke=3182ce&ring=3182ce&fire=3182ce" width="48%" />
-</p>
-
----
