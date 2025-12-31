@@ -50,5 +50,21 @@
   <img src="https://kroki.io/mermaid/svg/eNptkk1vwyAMhu_5FSyfUmkP0MNIe9lll166yx4bcLBKEiUgH7TT_vucpmpTqUt-bOzXz8vYwYRykeBsuTRaPqo-hA7KUpCMxf-h7A6Dy5UN7Cm2o1UVjOdwYVGCecPtL_IjFNzZJVbCO2PfFXoJA7_Tz-nn-8dh7q43Fr87-gflLbrTbuADPnqbHn3ft327z9_u8fZ2n9_d2_28P-7reng62r57VP5L09I96lLre9Dqvv6ekx58ByU8aMEbOPBseN-K67_SHpi6ecHh8F-X_O1VUap_iC_4D3S9lyE=" alt="Enterprise Network Architecture" width="100%">
 </p>
 
-> [!IMPORTANT]
-> **Spécifications du Cluster :** 4 Nœuds Proxmox VE en Haute Disponibilité, Stockage distribué, et Stratégie de Backup 3-2-1 (PBS + NAS RAID-5 + Cloud Offsite).
+
+
+
+### 🌐 Infrastructure & High-Availability Design
+
+<p align="center">
+  <img src="https://kroki.io/mermaid/svg/eNptkk1vwyAMhu_5FSyfUmkP0MNIe9lll166yx4bcLBKEiUgH7TT_vucpmpTqUt-bOzXz8vYwYRykeBsuTRaPqo-hA7KUpCMxf-h7A6Dy5UN7Cm2o1UVjOdwYVGCecPtL_IjkN_ZJVbCO2PfFXoJA7_Tz-nn-8dh7q43Fr87-gflLbrTbuADPnqbHn3ft327z9_u8fZ2n9_d2_28P-7reng62r57VP5L09I96lLre9Dqvv6ekx58ByU8aMEbOPBseN-K67_SHpi6ecHh8F-X_O1VUap_iC_4D3S9lyE=" width="100%" alt="Enterprise Network Architecture">
+</p>
+
+---
+
+### 🖥️ Spécifications du Cluster Proxmox (4 Nœuds)
+| Composant | Rôle | Services Critiques |
+| :--- | :--- | :--- |
+| **Sécurité** | Edge Firewall | Nginx Proxy Manager, AdGuard Home DNS |
+| **Compute** | Proxmox HA Cluster | Docker (20+ containers), Home Assistant, Windows Server |
+| **Storage** | NAS RAID-5 | Stockage centralisé NFS/SMB pour les VM |
+| **Resilience** | Backup Server | Sauvegardes incrémentielles quotidiennes via PBS |
