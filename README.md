@@ -1,16 +1,29 @@
-# <p align="center">Bienvenue sur mon profil ! 🚀</p>
+# <p align="center">👋 Bienvenue dans mon Home-Lab</p>
 
----
-
-### 🛠 Technologies & Tools
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=docker,dotnet,react,express,figma,graphql,html,java,js,nestjs,nginx,nodejs,postgres,py,ruby,rust,symfony,ts&perline=10" />
+<p align="center">
+  <strong>Passionné d'Auto-hébergement | Administrateur Proxmox | Amateur de Linux</strong>
 </p>
 
 ---
 
-### 📊 GitHub Stats
+### 🖥️ Mon Infrastructure & Stack
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=proxmox,linux,debian,ubuntu,docker,nginx,raspberrypi,ansible,bash,homeassistant&perline=10" />
+</p>
+
+---
+
+### 🔭 Ce que je fais dans mon lab
+- ☁️ **Virtualisation** : Gestion de plusieurs nœuds sous **Proxmox VE**.
+- 🐳 **Conteneurisation** : Déploiement de services via **Docker Compose** et Portainer.
+- 🌐 **Réseau** : Configuration de Reverse Proxy (**Nginx Proxy Manager**) et sécurisation.
+- 🏠 **Domotique** : Automatisation complète de la maison avec **Home Assistant**.
+- 🐧 **Linux** : Administration de serveurs sous Debian et Ubuntu.
+
+---
+
+### 📊 Mes Statistiques GitHub
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=TON-PSEUDO&show_icons=true&theme=transparent&hide_border=true" width="48%" />
@@ -19,5 +32,5 @@
 
 ---
 
-### 📂 Projets Épinglés (Automatique)
-> *Les projets que tu vois sur l'image (anime-sama, api-server, etc.) sont gérés via l'accueil de ton profil GitHub en cliquant sur **"Customize your pins"**.*
+### 📂 Mes Dépôts Favoris
+*N'oublie pas d'épingler tes fichiers de config (ex: tes fichiers Docker-compose ou scripts Bash) sur ton profil !*
