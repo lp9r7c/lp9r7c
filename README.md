@@ -36,9 +36,3 @@
 </p>
 
 ---
-
-<p align="center">
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Contact_Me-blue?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
