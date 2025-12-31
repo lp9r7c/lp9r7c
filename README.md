@@ -1,21 +1,23 @@
-# Salut, moi c'est [Ton Prénom/Pseudo] ! 👋
-
-### 🚀 Passionné de Self-hosting, Réseau et Domotique
-
-Je suis un passionné d'informatique qui adore monter des serveurs, sécuriser des réseaux et automatiser ma maison. Mon GitHub est mon terrain de jeu pour mes scripts et mes configurations.
-
-- 🔭 Je travaille actuellement sur mon **Home Lab** (Proxmox & Docker)
-- 🌱 J'approfondis mes connaissances sur **Nginx Proxy Manager** et la sécurité réseau
-- 🏠 Expert en herbe sur **Home Assistant** pour une maison intelligente
-- 💬 Pose-moi des questions sur le **Self-hosting** !
-
-### 🛠 Ma Stack Technique
-
-![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Bash](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
-### 📊 Mes Stats GitHub
-
-![Stats de mon GitHub](https://github-readme-stats.vercel.app/api?username=TON-PSEUDO-ICI&show_icons=true&theme=radical&count_private=true)
+# <p align="center">Bienvenue sur mon profil ! 🚀</p>
 
 ---
-📫 **Comment me joindre :** [Ton LinkedIn ou Email]
+
+### 🛠 Technologies & Tools
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=docker,dotnet,react,express,figma,graphql,html,java,js,nestjs,nginx,nodejs,postgres,py,ruby,rust,symfony,ts&perline=10" />
+</p>
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=TON-PSEUDO&show_icons=true&theme=transparent&hide_border=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=TON-PSEUDO&theme=transparent&hide_border=true" width="48%" />
+</p>
+
+---
+
+### 📂 Projets Épinglés (Automatique)
+> *Les projets que tu vois sur l'image (anime-sama, api-server, etc.) sont gérés via l'accueil de ton profil GitHub en cliquant sur **"Customize your pins"**.*
