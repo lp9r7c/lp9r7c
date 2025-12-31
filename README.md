@@ -29,6 +29,3 @@
 - 🐳 **Microservices** : Orchestration de plus de 20 conteneurs via Docker Compose (Jellyfin, Homarr, Octoprint).
 
 ---
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/cd154078-ec87-4773-ab53-07fb5179d472" />
-
-
