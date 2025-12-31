@@ -60,11 +60,3 @@
 </p>
 
 ---
-
-### 🖥️ Spécifications du Cluster Proxmox (4 Nœuds)
-| Composant | Rôle | Services Critiques |
-| :--- | :--- | :--- |
-| **Sécurité** | Edge Firewall | Nginx Proxy Manager, AdGuard Home DNS |
-| **Compute** | Proxmox HA Cluster | Docker (20+ containers), Home Assistant, Windows Server |
-| **Storage** | NAS RAID-5 | Stockage centralisé NFS/SMB pour les VM |
-| **Resilience** | Backup Server | Sauvegardes incrémentielles quotidiennes via PBS |
