@@ -43,20 +43,6 @@
   <i>"L'automatisation est la clé d'une infrastructure robuste et sécurisée."</i>
 </p>
 
-
-### 🌐 Infrastructure & High Availability Design
-
-<p align="center">
-  <img src="https://kroki.io/mermaid/svg/eNptkk1vwyAMhu_5FSyfUmkP0MNIe9lll166yx4bcLBKEiUgH7TT_vucpmpTqUt-bOzXz8vYwYRykeBsuTRaPqo-hA7KUpCMxf-h7A6Dy5UN7Cm2o1UVjOdwYVGCecPtL_IjFNzZJVbCO2PfFXoJA7_Tz-nn-8dh7q43Fr87-gflLbrTbuADPnqbHn3ft327z9_u8fZ2n9_d2_28P-7reng62r57VP5L09I96lLre9Dqvv6ekx58ByU8aMEbOPBseN-K67_SHpi6ecHh8F-X_O1VUap_iC_4D3S9lyE=" alt="Enterprise Network Architecture" width="100%">
-</p>
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/448d7c6d-5dc2-4665-85ac-b2096b44f82e" />
 
 
-
-
-### 🌐 Infrastructure & High-Availability Design
-
-<p align="center">
-  <img src="https://kroki.io/mermaid/svg/eNptkk1vwyAMhu_5FSyfUmkP0MNIe9lll166yx4bcLBKEiUgH7TT_vucpmpTqUt-bOzXz8vYwYRykeBsuTRaPqo-hA7KUpCMxf-h7A6Dy5UN7Cm2o1UVjOdwYVGCecPtL_IjkN_ZJVbCO2PfFXoJA7_Tz-nn-8dh7q43Fr87-gflLbrTbuADPnqbHn3ft327z9_u8fZ2n9_d2_28P-7reng62r57VP5L09I96lLre9Dqvv6ekx58ByU8aMEbOPBseN-K67_SHpi6ecHh8F-X_O1VUap_iC_4D3S9lyE=" width="100%" alt="Enterprise Network Architecture">
-</p>
-
----
