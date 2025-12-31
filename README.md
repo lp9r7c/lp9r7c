@@ -1,4 +1,4 @@
-# <p align="center">Salut, je suis Thomas 👋</p>
+# <p align="center">Salut, je suis Thomas</p>
 
 <p align="center">
   <strong>Passionné d'auto-hébergement | Architecte Proxmox | Infrastructure as Code</strong><br>
@@ -8,6 +8,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Active_Lab-success?style=flat-square" />
   <img src="https://img.shields.io/badge/Focus-Infrastructure_&_Cyber-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Learning-CCNA_Certification-orange?style=flat-square&logo=cisco" />
 </p>
 
 ---
@@ -20,11 +21,12 @@
 
 ---
 
-### 🔭 Projets en cours dans mon laboratoire personnel
-- 🛡️ **Sécurité réseau** : Mise en œuvre de Nginx Proxy Manager avec SSL automatisé et audits de sécurité via **Nmap**.
-- ☁️ **Virtualisation** : Gestion d'un cluster **Proxmox** complexe avec des nœuds dédiés pour AdGuard-Home, Vaultwarden, et Immich.
+### 🔭 Projets et Apprentissages
+- 🎓 **Certification** : Je prépare actuellement la certification **Cisco CCNA** (Réseau et Commutation).
+- 🛡️ **Sécurité réseau** : Mise en œuvre de Nginx Proxy Manager avec SSL automatisé et audits via **Nmap**.
+- ☁️ **Virtualisation** : Gestion d'un cluster **Proxmox** avec des nœuds dédiés pour AdGuard-Home, Vaultwarden et Immich.
 - 🏠 **Maison intelligente** : Développement d'automatisations avancées dans **Home Assistant**.
-- 🐳 **Microservices** : Orchestration de plus de 20 conteneurs via Docker Compose (Jellyfin, n8n, Homarr, Octoprint).
+- 🐳 **Microservices** : Orchestration de plus de 20 conteneurs via Docker Compose (Jellyfin, Homarr, Octoprint).
 
 ---
 
