@@ -43,47 +43,52 @@ graph TD
         ISP_AIRBOX((Airbox 4G/5G)) --- FW_EDGE
     end
 
-    %% BAIE RÉSEAU
-    subgraph RACK_NET [BAIE N°1 : RÉSEAU & CORE SÉCURITÉ]
-        direction TB
-        FW_EDGE -- "Zone DMZ" --- FW_INT{Firewall 2: Interne}
-        FW_INT --- SW_CORE[Switch L3 Manageable 1Gbps]
-        
-        subgraph SEC [SÉCURITÉ & SCAN]
-            SW_CORE --- ADG[AdGuard Home DNS]
-            SW_CORE --- NPM[Nginx Proxy Manager]
-            SW_CORE --- NMAP[Nmap Security Scanner]
-        end
-        
-        UPS_1[Onduleur Réseau] -.-> SW_CORE
+graph TD
+    %% Zone Internet
+    subgraph WAN [ACCÈS INTERNET & SÉCURITÉ EDGE]
+        direction LR
+        ISP1((Fibre 1Gbps)) --- FW1{Firewall 1: Edge}
+        ISP2((Airbox 4G/5G)) --- FW1
     end
 
-    %% BAIE SERVEURS
-    subgraph RACK_SRV [BAIE N°2 : COMPUTE & DATA]
+    %% Première Baie
+    subgraph RACK_1 [BAIE N°1 : INFRASTRUCTURE RÉSEAU]
         direction TB
-        SW_CORE -- "Liaison Gigabit" --- CLUSTER[Cluster Proxmox HA - 15 Nœuds]
+        FW1 -- "Filtrage WAN" --- FW2{Firewall 2: Interne}
+        FW2 --- SW_CORE[Switch L3 Manageable 1Gbps]
         
-        subgraph VIRT [LOGICIEL & CONTAINERS]
+        subgraph SEC_LAYER [Couche Sécurité]
+            SW_CORE --- ADG[AdGuard Home DNS]
+            SW_CORE --- NPM[Nginx Proxy Manager]
+            SW_CORE --- NMAP[Nmap Scanner]
+        end
+        
+        UPS1[Onduleur Réseau] -.-> SW_CORE
+    end
+
+    %% Deuxième Baie
+    subgraph RACK_2 [BAIE N°2 : COMPUTE & CLUSTER]
+        direction TB
+        SW_CORE -- "Liaison 1Gbps" --- CLUSTER[Cluster Proxmox HA - 15 Nœuds]
+        
+        subgraph SERVICES [Services Critiques]
             CLUSTER --- HA[Home Assistant]
             CLUSTER --- DOCKER[Docker Swarm: Immich / Jellyfin]
-            CLUSTER --- DEV[VMs Windows & Linux Dev]
         end
 
-        subgraph DATA [STOCKAGE & RÉSILIENCE]
+        subgraph DATA_ZONE [Protection des Données]
             CLUSTER --- PBS[Proxmox Backup Server]
             PBS --- NAS_LOC[(NAS RAID-Z2 Local)]
             NAS_LOC -.-> OFFSITE((Backup Offsite / Cloud))
         end
 
-        UPS_2[Onduleur Serveurs] -.-> CLUSTER
+        UPS2[Onduleur Serveurs] -.-> CLUSTER
     end
 
-    %% PERSONNALISATION DES COULEURS (PROPRE & LISIBLE)
-    style FW_EDGE fill:#f87171,stroke:#333,stroke-width:2px,color:#000
-    style FW_INT fill:#fbbf24,stroke:#333,stroke-width:2px,color:#000
-    style SW_CORE fill:#60a5fa,stroke:#333,stroke-width:2px,color:#000
-    style CLUSTER fill:#34d399,stroke:#333,stroke-width:2px,color:#000
-    style PBS fill:#a78bfa,stroke:#333,stroke-width:2px,color:#000
-    style RACK_NET fill:#1f2937,stroke:#60a5fa,stroke-width:2px,color:#fff
-    style RACK_SRV fill:#111827,stroke:#34d399,stroke-width:2px,color:#fff
-    
+    %% Styles pour un rendu pro
+    style FW1 fill:#f87171,stroke:#000,color:#000
+    style FW2 fill:#fbbf24,stroke:#000,color:#000
+    style SW_CORE fill:#60a5fa,stroke:#000,color:#000
+    style CLUSTER fill:#34d399,stroke:#000,color:#000
+    style RACK_1 fill:#1f2937,stroke:#60a5fa,stroke-width:2px,color:#fff
+    style RACK_2 fill:#111827,stroke:#34d399,stroke-width:2px,color:#fff
