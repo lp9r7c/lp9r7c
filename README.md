@@ -30,15 +30,6 @@
 
 ---
 
-### 📊 Activité GitHub
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tp7r7c&show_icons=true&theme=transparent&hide_border=true&title_color=3182ce&icon_color=3182ce" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tp7r7c&theme=transparent&hide_border=true&stroke=3182ce&ring=3182ce&fire=3182ce" width="48%" />
-</p>
-
----
-
 <p align="center">
   <i>"L'automatisation est la clé d'une infrastructure robuste et sécurisée."</i>
 </p>
