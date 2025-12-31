@@ -42,3 +42,51 @@
 <p align="center">
   <i>"L'automatisation est la clé d'une infrastructure robuste et sécurisée."</i>
 </p>
+
+
+
+### 🌐 Architecture de mon Infrastructure (High Availability)
+
+```mermaid
+graph TD
+    subgraph WAN [Accès & Sécurité Périmétrique]
+        Internet((Internet)) --- FW{Router/Firewall}
+        FW --- NPM[Nginx Proxy Manager]
+        FW --- DNS[AdGuard Home DNS]
+    end
+
+    subgraph LAN [Réseau Local & Wi-Fi]
+        FW --- AP[Point d'Accès Wi-Fi]
+        AP --- IoT[Appareils IoT / Mobiles]
+    end
+
+    subgraph Proxmox_Cluster [Cluster Haute Disponibilité Proxmox VE]
+        direction TB
+        subgraph Node_P1 [Nœud p1]
+            HA[Home Assistant]
+            LXC1[Reverse Proxy]
+        end
+        subgraph Node_P2 [Nœud p2]
+            DOCKER[Docker Engine]
+            LXC2[DNS Server]
+        end
+        subgraph Node_P3 [Nœud p3]
+            WIN[Windows Server]
+            OCTO[Octoprint]
+        end
+    end
+
+    subgraph Data [Sauvegarde & Résilience]
+        direction LR
+        Proxmox_Cluster --- PBS[Proxmox Backup Server]
+        PBS --- NAS1[(NAS Principal RAID-5)]
+        NAS1 --- NAS2[(NAS Offsite Backup)]
+    end
+
+    %% Styles pour un rendu "Enterprise Dark"
+    style Proxmox_Cluster fill:#111,stroke:#3182ce,stroke-width:2px,color:#fff
+    style WAN fill:#1a202c,stroke:#e53e3e,stroke-width:2px,color:#fff
+    style Data fill:#1a202c,stroke:#48bb78,stroke-width:2px,color:#fff
+    style Node_P1 fill:#2d3748,stroke:#718096,color:#fff
+    style Node_P2 fill:#2d3748,stroke:#718096,color:#fff
+    style Node_P3 fill:#2d3748,stroke:#718096,color:#fff
