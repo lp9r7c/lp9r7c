@@ -44,49 +44,11 @@
 </p>
 
 
+### 🌐 Infrastructure & High Availability Design
 
-### 🌐 Architecture de mon Infrastructure (High Availability)
+<p align="center">
+  <img src="https://kroki.io/mermaid/svg/eNptkk1vwyAMhu_5FSyfUmkP0MNIe9lll166yx4bcLBKEiUgH7TT_vucpmpTqUt-bOzXz8vYwYRykeBsuTRaPqo-hA7KUpCMxf-h7A6Dy5UN7Cm2o1UVjOdwYVGCecPtL_IjFNzZJVbCO2PfFXoJA7_Tz-nn-8dh7q43Fr87-gflLbrTbuADPnqbHn3ft327z9_u8fZ2n9_d2_28P-7reng62r57VP5L09I96lLre9Dqvv6ekx58ByU8aMEbOPBseN-K67_SHpi6ecHh8F-X_O1VUap_iC_4D3S9lyE=" alt="Enterprise Network Architecture" width="100%">
+</p>
 
-```mermaid
-graph TD
-    subgraph WAN [Accès & Sécurité Périmétrique]
-        Internet((Internet)) --- FW{Router/Firewall}
-        FW --- NPM[Nginx Proxy Manager]
-        FW --- DNS[AdGuard Home DNS]
-    end
-
-    subgraph LAN [Réseau Local & Wi-Fi]
-        FW --- AP[Point d'Accès Wi-Fi]
-        AP --- IoT[Appareils IoT / Mobiles]
-    end
-
-    subgraph Proxmox_Cluster [Cluster Haute Disponibilité Proxmox VE]
-        direction TB
-        subgraph Node_P1 [Nœud p1]
-            HA[Home Assistant]
-            LXC1[Reverse Proxy]
-        end
-        subgraph Node_P2 [Nœud p2]
-            DOCKER[Docker Engine]
-            LXC2[DNS Server]
-        end
-        subgraph Node_P3 [Nœud p3]
-            WIN[Windows Server]
-            OCTO[Octoprint]
-        end
-    end
-
-    subgraph Data [Sauvegarde & Résilience]
-        direction LR
-        Proxmox_Cluster --- PBS[Proxmox Backup Server]
-        PBS --- NAS1[(NAS Principal RAID-5)]
-        NAS1 --- NAS2[(NAS Offsite Backup)]
-    end
-
-    %% Styles pour un rendu "Enterprise Dark"
-    style Proxmox_Cluster fill:#111,stroke:#3182ce,stroke-width:2px,color:#fff
-    style WAN fill:#1a202c,stroke:#e53e3e,stroke-width:2px,color:#fff
-    style Data fill:#1a202c,stroke:#48bb78,stroke-width:2px,color:#fff
-    style Node_P1 fill:#2d3748,stroke:#718096,color:#fff
-    style Node_P2 fill:#2d3748,stroke:#718096,color:#fff
-    style Node_P3 fill:#2d3748,stroke:#718096,color:#fff
+> [!IMPORTANT]
+> **Spécifications du Cluster :** 4 Nœuds Proxmox VE en Haute Disponibilité, Stockage distribué, et Stratégie de Backup 3-2-1 (PBS + NAS RAID-5 + Cloud Offsite).
