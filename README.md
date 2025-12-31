@@ -1,35 +1,34 @@
-# <p align="center">Hi, I'm Thomas </p>
+# <p align="center">Salut, je suis Thomas 👋</p>
 
 <p align="center">
-  <strong>Self-Hosting Enthusiast | Proxmox Architect | Infrastructure as Code</strong><br>
-  Optimizing home automation and server virtualization.
+  <strong>Passionné d'auto-hébergement | Architecte Proxmox | Infrastructure as Code</strong><br>
+  Optimisation de la domotique et de la virtualisation des serveurs.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Active_Lab-success?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-Infrastructure-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-Infrastructure_&_Cyber-blue?style=flat-square" />
 </p>
 
 ---
 
-### 🛠️ Technologies & Tools
+### 🛠️ Technologies et outils
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=proxmox,linux,debian,ubuntu,raspberrypi,docker,bash&perline=10" /><br>
-  <img src="https://skillicons.dev/icons?i=nginx,ansible,homeassistant,py,nmap,powershell,github,vscode&perline=10" />
+  <img src="https://skillicons.dev/icons?i=proxmox,linux,debian,ubuntu,raspberrypi,docker,nginx,ansible,homeassistant,bash,py,powershell,nmap,github,vscode&perline=15" />
 </p>
 
 ---
 
-### 🔭 Current Home-Lab Projects
-- 🛡️ **Network Security**: Implementing Nginx Proxy Manager with automated SSL and security audits via **Nmap**.
-- ☁️ **Virtualization**: Managing a complex **Proxmox** cluster with dedicated nodes for AdGuard, Vaultwarden, and Immich.
-- 🏠 **Smart Home**: Advanced automation orchestration in **Home Assistant**.
-- 🐳 **Microservices**: Orchestrating 20+ containers via Docker Compose for self-hosted services (Jellyfin, n8n, Immich).
+### 🔭 Projets en cours dans mon laboratoire personnel
+- 🛡️ **Sécurité réseau** : Mise en œuvre de Nginx Proxy Manager avec SSL automatisé et audits de sécurité via **Nmap**.
+- ☁️ **Virtualisation** : Gestion d'un cluster **Proxmox** complexe avec des nœuds dédiés pour AdGuard-Home, Vaultwarden, et Immich.
+- 🏠 **Maison intelligente** : Développement d'automatisations avancées dans **Home Assistant**.
+- 🐳 **Microservices** : Orchestration de plus de 20 conteneurs via Docker Compose (Jellyfin, n8n, Homarr, Octoprint).
 
 ---
 
-### 📊 GitHub Activity
+### 📊 Activité GitHub
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Tp7r7c&show_icons=true&theme=transparent&hide_border=true&title_color=3182ce&icon_color=3182ce" width="48%" />
@@ -39,5 +38,5 @@
 ---
 
 <p align="center">
-  <i>"Automating the present to secure the future."</i>
+  <i>"L'automatisation est la clé d'une infrastructure robuste et sécurisée."</i>
 </p>
