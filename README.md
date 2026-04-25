@@ -17,6 +17,15 @@
 
 ---
 
+### 🛠️ Stack Technique & Arsenal
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=proxmox,linux,debian,ubuntu,kali,docker,nginx,ansible,terraform,aws,raspberrypi,github" /><br>
+  <img src="https://skillicons.dev/icons?i=nmap,wireshark,grafana,prometheus,bash,py,powershell,mysql,postgres,mongodb,vscode,discord" />
+</p>
+
+---
+
 ### 🛡️ Cyber Defense Ops (SOC)
 > "Ce qui ne peut pas être mesuré ne peut pas être sécurisé."
 
@@ -37,21 +46,10 @@
 
 ---
 
-### 🛠️ Stack Technique & Arsenal
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=proxmox,linux,debian,docker,nginx,ansible,github,vscode,nmap,bash,py,powershell,raspberrypi,grafana,prometheus&perline=15" />
-</p>
-
----
-
 ### 📊 Lab Metrics & Activity
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=lp9r7c&show_icons=true&theme=tokyonight&count_private=true" alt="Stats" height="180px" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lp9r7c&layout=compact&theme=tokyonight&hide_border=true" alt="Langs" height="180px" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lp9r7c&theme=tokyonight&hide_border=true" alt="Streak" />
 </p>
 
 ---
