@@ -22,7 +22,6 @@
 ---
 
 ### 🔭 Projets et Apprentissages
-- 🎓 **Certification** : Je prépare actuellement la certification **Cisco CCNA** (Réseau et Commutation).
 - 🛡️ **Sécurité réseau** : Mise en œuvre de Nginx Proxy Manager avec SSL automatisé et audits via **Nmap**.
 - ☁️ **Virtualisation** : Gestion d'un cluster **Proxmox** avec des nœuds dédiés pour AdGuard-Home, Vaultwarden et Immich.
 - 🏠 **Maison intelligente** : Développement d'automatisations avancées dans **Home Assistant**.
