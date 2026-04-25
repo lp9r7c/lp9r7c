@@ -1,30 +1,59 @@
-# <p align="center">Salut, je suis lp9r7c</p>
+# <p align="center">🛡️ lp9r7c | Infrastructure & Cybersecurity 🛡️</p>
 
 <p align="center">
-  <strong>Passionné d'auto-hébergement | Architecte Proxmox | Infrastructure as Code</strong><br>
-  Optimisation de la domotique et de la virtualisation des serveurs.
+  <strong>Architecte Homelab | Passionné d'Auto-hébergement | Apprenti Analyste SOC</strong><br>
+  Expertise en virtualisation Proxmox et sécurisation d'environnements critiques.
+</p>
+
+<p center align="center">
+  <img src="https://img.shields.io/badge/Main_OS-Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hypervisor-Proxmox-E57020?style=for-the-badge&logo=proxmox&logoColor=white" />
+  <img src="https://img.shields.io/badge/SIEM-Wazuh-00A9E0?style=for-the-badge&logo=wazuh&logoColor=white" />
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Active_Lab-success?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-Infrastructure_&_Cyber-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Learning-CCNA_Certification-orange?style=flat-square&logo=cisco" />
+  <img src="https://img.shields.io/badge/Focus-Infrastructure_as_Code-blue?style=flat-square" />
 </p>
 
 ---
 
-### 🛠️ Technologies et outils
+### 🛠️ Stack Technique
 
+#### 🌐 Infrastructure & Virtualisation
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=proxmox,linux,debian,ubuntu,raspberrypi,docker,nginx,ansible,homeassistant,bash,py,powershell,nmap,github,vscode&perline=15" />
+  <img src="https://skillicons.dev/icons?i=proxmox,docker,ansible,linux,debian,ubuntu,raspberrypi,nginx" />
+</p>
+
+#### 🛡️ Cybersécurité & Scripting
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nmap,bash,py,powershell,github,vscode" />
 </p>
 
 ---
 
-### 🔭 Projets et Apprentissages
-- 🛡️ **Sécurité réseau** : Mise en œuvre de Nginx Proxy Manager avec SSL automatisé et audits via **Nmap**.
-- ☁️ **Virtualisation** : Gestion d'un cluster **Proxmox** avec des nœuds dédiés pour AdGuard-Home, Vaultwarden et Immich.
-- 🏠 **Maison intelligente** : Développement d'automatisations avancées dans **Home Assistant**.
-- 🐳 **Microservices** : Orchestration de plus de 20 conteneurs via Docker Compose (Jellyfin, Homarr, Octoprint).
+### 🔭 Projets & Expertises
+
+#### 🛡️ **Sécurité & Monitoring (SOC/SIEM)**
+- **Wazuh SIEM/XDR** : Déploiement d'une solution de monitoring centralisée pour la détection d'intrusions, l'analyse de logs et la conformité sur l'ensemble du parc (VMs et conteneurs).
+- **Hardening & Audit** : Audit réseau avec **Nmap** et sécurisation des accès via **Nginx Proxy Manager** (Certificats SSL/TLS automatiques).
+- **Privacy** : Gestion de **AdGuard Home** et **Vaultwarden** pour la protection des données et du trafic DNS.
+
+#### ☁️ **Infrastructure & Automation**
+- **Proxmox Cluster** : Administration d'un environnement virtualisé haute disponibilité.
+- **IaC & DevOps** : Automatisation du déploiement système via **Ansible** et gestion de microservices avec **Docker Compose** (+20 conteneurs actifs).
+- **Home Automation** : Pilotage d'une instance **Home Assistant** avancée intégrant domotique et monitoring énergétique.
 
 ---
+
+### 📊 Statistiques GitHub
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=lp9r7c&show_icons=true&theme=radical&hide_border=true" alt="Stats de lp9r7c" />
+</p>
+
+---
+
+<p align="center">
+  <i>"L'automatisation est une bonne chose, mais la sécurité est une nécessité."</i>
+</p>
