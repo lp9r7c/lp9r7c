@@ -3,9 +3,14 @@
 </p>
 
 <p align="center">
-  <strong>17 y/o · Infrastructure Engineer & Homelab Architect</strong><br>
-  <i>Je construis des infrastructures datacenter-grade depuis l'âge de 11 ans.<br>
-  Proxmox · Haute Disponibilité · Cybersécurité · Privacy by Design.</i>
+  <strong>Infrastructure Engineer & Homelab Architect</strong><br>
+  <i>Proxmox · Haute Disponibilité · Cybersécurité · Privacy by Design.</i>
+</p>
+
+<p align="center">
+  <a href="https://lp9r7c.github.io">
+    <img src="https://img.shields.io/badge/Live_Datacenter-View_Infra-00a8ff?style=for-the-badge&logo=proxmox&logoColor=white" />
+  </a>
 </p>
 
 <p align="center">
@@ -86,14 +91,13 @@
 - [ ] **Cisco CCNA 200-301** : En cours de validation.
 - [ ] **Automation** : Scripts Python de gestion de parc (Netmiko / NAPALM).
 - [ ] **Pentesting** : Active Directory, Red Team sur lab isolé.
-- [ ] **Bachelor Cybersécurité / Réseaux** : Objectif post-bac 2026.
 
 ---
 
 ### 💬 À propos
 
-> Passionné d'infrastructure depuis mes **11 ans**. Ce qui me drive : construire des systèmes qui ressemblent à de vrais datacenters — redondants, sécurisés, auto-hébergés, sans dépendance au cloud tiers.
-> 
+> Ce qui me drive : construire des systèmes qui ressemblent à de vrais datacenters — redondants, sécurisés, auto-hébergés, sans dépendance au cloud tiers.
+>
 > Tout ce que tu vois ici tourne chez moi, sur du vrai matériel, maintenu et monitoré 24/7.
 
 ---
@@ -102,7 +106,6 @@
   <img src="https://img.shields.io/badge/Infra_Status-Operational-brightgreen?style=flat-square" />
   <img src="https://img.shields.io/badge/Privacy-Enforced-6e40c9?style=flat-square" />
   <img src="https://img.shields.io/badge/Network_Security-A+_Rating-00A9E0?style=flat-square" />
-  <img src="https://img.shields.io/badge/Age-17-ff6b6b?style=flat-square" />
 </p>
 
 <p align="center">
