@@ -8,9 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://lp9r7c.github.io">
-    <img src="https://img.shields.io/badge/Live_Datacenter-View_Infra-00a8ff?style=for-the-badge&logo=proxmox&logoColor=white" />
-  </a>
+  <img src="datacenter.gif" width="420" />
 </p>
 
 <p align="center">
