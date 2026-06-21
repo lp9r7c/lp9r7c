@@ -76,3 +76,4 @@ C'est le côté qui me branche le plus.
 ---
 
 > Au final ce qui me plaît c'est de construire des systèmes solides — redondants, sécurisés, auto-hébergés — et de comprendre comment ça marche jusqu'au bout. Tout ce que tu vois ici tourne pour de vrai, sur ma propre machine, maintenu au quotidien.
+
